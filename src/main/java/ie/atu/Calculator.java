@@ -12,6 +12,8 @@ public class Calculator {
     }
 
     public static void add() {
+        System.out.println("Adding Function\n");
+
         System.out.println("Please enter your first number");
         Scanner inputs = new Scanner(System.in);
         int firstNumber = inputs.nextInt();
@@ -24,6 +26,8 @@ public class Calculator {
 
     }
     public static void multiply() {
+        System.out.println("Multiplying function\n");
+
         System.out.println("Please enter your first number");
         Scanner inputs = new Scanner(System.in);
         int firstNumber = inputs.nextInt();
@@ -37,6 +41,8 @@ public class Calculator {
     }
 
     public static void divide(){
+        System.out.println("Division Function\n");
+
         System.out.println("Please enter your first number");
         Scanner inputs = new Scanner(System.in);
         int firstNumber = inputs.nextInt();
@@ -49,6 +55,8 @@ public class Calculator {
     }
 
     public static void subtract(){
+        System.out.println("Subtracting Function\n");
+
         System.out.println("Please enter your first number");
         Scanner inputs = new Scanner(System.in);
         int firstNumber = inputs.nextInt();
